@@ -2,7 +2,7 @@
 
 
 a = Analysis(
-    ['ecam_status_display.py'],
+    ['Ecam_Status_Display.py'],
     pathex=[],
     binaries=[],
     datas=[],

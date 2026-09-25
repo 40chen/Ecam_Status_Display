@@ -29,7 +29,7 @@ pyinstaller --onefile --windowed --name "Ecam_Status_Display" ^
     --hidden-import=serial.tools.list_ports ^
     --hidden-import=keyring.backends.Windows ^
     --hidden-import=pynvml ^
-    ecam_status_display.py
+    Ecam_Status_Display.py
 
 echo.
 if exist "dist\Ecam_Status_Display.exe" (
